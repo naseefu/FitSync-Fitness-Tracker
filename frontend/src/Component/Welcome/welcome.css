@@ -1,0 +1,6 @@
+.hero{
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  color: rgb(255, 255, 255);
+}

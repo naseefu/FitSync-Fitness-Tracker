@@ -1,0 +1,9 @@
+/* Add this CSS to control the layout when exporting as PDF */
+@media print {
+  #progress-report {
+    width: 500px !important;
+    /* Set the width to 500px for PDF */
+    margin: 0 auto;
+    /* Center the content */
+  }
+}

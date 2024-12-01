@@ -1,0 +1,62 @@
+1) Please provide the top 4 nutrients in a full plate of biriyani along with their approximate amounts in grams, without the unit 'g' in the amount. Provide only the result in the following JSON format: { 1st-nutrient-name:amount-as-integer. 2nd-nutrient-name:amount-as-integer  }
+
+2){Deadlifts, Bench Press, Squats, Overhead Press, Pull-Ups, Push-Ups, Dumbbell Rows, Barbell Curls, Tricep Dips, Kettlebell Swings, Running, Jogging, Cycling, Jump Rope, Rowing, Stair Climbing, HIIT, Elliptical Training, Speed Walking, Aerobic Dance, Swimming, Burpees, Plank Variations, Mountain Climbers, Lunges, Glute Bridges, Russian Twists, V-Ups, Donkey Kicks, Side-Lying Leg Lifts, Wall Sits, Yoga Poses, Pilates Movements, Dynamic Stretching, Foam Rolling, PNF Stretching, Sun Salutations, Cat-Cow Stretch, Seated Forward Bend, Butterfly Stretch, Spinal Twists, Farmer's Carry, Medicine Ball Slams, Battle Ropes, Box Jumps, Turkish Get-Up, Sandbag Training, Sled Push, Agility Ladder Drills, Weighted Step-Ups, Tire Flips, Sprint Intervals, Plyometric Drills, Shadow Boxing, Speed Ladder, Defensive Slides, Kicking Drills, Batting Practice, Ball Dribbling, Hill Sprints, Resistance Band Workouts.}
+ 
+from this,  Suggest a combination of 6 workouts for a day that because i had food for 4,400 calories in a single session. Please give it in a JSON format as {workout:[1,2,3...]} include the workout names only, separated by commas.no other comments from you, just result
+
+
+4)
+[
+  { "id": 1, "name": "Push-Up Progression" },
+  { "id": 2, "name": "Leg Day Blast" },
+  { "id": 3, "name": "Core Strength Circuit" },
+  { "id": 4, "name": "Full-Body HIIT" },
+  { "id": 5, "name": "Arm Sculptor" },
+  { "id": 6, "name": "Cardio Kickstart" },
+  { "id": 7, "name": "Yoga Flow" },
+  { "id": 8, "name": "Back Builder" },
+  { "id": 9, "name": "Glute Activation" },
+  { "id": 10, "name": "Stretch and Recovery" },
+  { "id": 11, "name": "Core Crusher" },
+  { "id": 12, "name": "Leg Power" },
+  { "id": 13, "name": "HIIT Blitz" },
+  { "id": 14, "name": "Mobility Reset" },
+  { "id": 15, "name": "Full-Body Blast" },
+  { "id": 16, "name": "Arm Sculptor" },
+  { "id": 17, "name": "Speed & Agility" },
+  { "id": 18, "name": "Pilates Core" },
+  { "id": 19, "name": "Functional Strength" },
+  { "id": 20, "name": "Flex & Stretch" }
+]
+from this,  Suggest a combination of 6 workouts for a day that because i had food for 4,400 calories . Please give it in a JSON format as [{"id":id,"name":name},{},..] give this, separated by commas.no other comments from you, just result
+
+
+
+[
+  { "id": 1, "name": "Push-Up Progression" },
+  { "id": 2, "name": "Leg Day Blast" },
+  { "id": 3, "name": "Core Strength Circuit" },
+  { "id": 4, "name": "Full-Body HIIT" },
+  { "id": 5, "name": "Arm Sculptor" },
+  { "id": 6, "name": "Cardio Kickstart" },
+  { "id": 7, "name": "Yoga Flow" },
+  { "id": 8, "name": "Back Builder" },
+  { "id": 9, "name": "Glute Activation" },
+  { "id": 10, "name": "Stretch and Recovery" },
+  { "id": 11, "name": "Core Crusher" },
+  { "id": 12, "name": "Leg Power" },
+  { "id": 13, "name": "HIIT Blitz" },
+  { "id": 14, "name": "Mobility Reset" },
+  { "id": 15, "name": "Full-Body Blast" },
+  { "id": 16, "name": "Arm Sculptor" },
+  { "id": 17, "name": "Speed & Agility" },
+  { "id": 18, "name": "Pilates Core" },
+  { "id": 19, "name": "Functional Strength" },
+  { "id": 20, "name": "Flex & Stretch" }
+]
+from this,  Suggest a combination of 6 workouts for a day that because i had foods which contains "total_nutrients": {
+    "calories": 850,
+    "protein": 25,
+    "fat": 30,
+    "carbohydrates": 130
+  } calories. Please give it in a JSON format as [{"id":id,"name":name},{},..] give this, separated by commas.no other comments from you, just result

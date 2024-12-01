@@ -1,0 +1,19 @@
+.bits .bit-image{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  gap: 0.5rem;
+}
+
+.bits .bit-images img{
+  height: 50px;
+}
+@media screen and (max-width:980px){
+  .bits{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90vw;
+  }
+}

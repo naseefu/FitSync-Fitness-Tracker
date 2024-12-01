@@ -1,0 +1,19 @@
+Ensure the grid fills the viewport
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 10vw);
+  grid-template-rows: repeat(auto-fill, 10vh);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Style for individual squares */
+.square {
+  width: 10vw;
+  height: 10vh;
+  background-color: #111827;
+  /* Change color as needed */
+  border: 1px solid rgb(20, 28, 46);
+  /* Optional: adds borders for better visibility */
+}

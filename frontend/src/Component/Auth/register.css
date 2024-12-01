@@ -1,0 +1,47 @@
+@media screen and (max-width:800px) {
+  .registermain .video-register {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  .registermain{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width:800px) {
+  
+  .registermain {
+  
+      grid-template-columns: 0.8fr 1.2fr;
+  
+    }
+
+    .registermain .registerfields{
+      width: 100%;
+    }
+
+}
+
+.registermain input{
+
+  width: 300px;
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 1px solid rgb(180, 180, 180);
+
+}
+.registermain input:focus{
+  outline: none;
+}
+
+.registermain label{
+  font-size: 14px;
+}
+
+.registerfields::-webkit-scrollbar{
+  scrollbar-width: none;
+}
