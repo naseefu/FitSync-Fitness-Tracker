@@ -25,8 +25,8 @@ public class AppConfig {
 		
 		JavaMailSenderImpl javaMailSenderImpl = new JavaMailSenderImpl();
 		javaMailSenderImpl.setHost("smtp.gmail.com");
-		javaMailSenderImpl.setUsername("eventuraoo07@gmail.com");
-		javaMailSenderImpl.setPassword("njdrlbfwqzvdkzxg");
+		javaMailSenderImpl.setUsername("mail id");
+		javaMailSenderImpl.setPassword("mail pass");
 		javaMailSenderImpl.setPort(587);
 		
 		javaMailSenderImpl.setJavaMailProperties(getProperties());
@@ -55,14 +55,6 @@ public class AppConfig {
         return new RestTemplate();
     }
 	
-//	@Bean
-//    public Cloudinary cloudinary() {
-//        return new Cloudinary(ObjectUtils.asMap(
-//            "cloud_name", "dlmy12woo",
-//            "api_key", "794148344422546",
-//            "api_secret", "oS193SlKqUtICqYsSB43va4jEFg"
-//        ));
-//    }
 	
 	@Bean
     public MultipartConfigElement multipartConfigElement() {
